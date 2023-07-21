@@ -39,10 +39,6 @@ li,a{
     height: 15px;
     padding-right: 7px;
 }
-main{
-    background-image: url('Group 14 copy 2.png');
-    background-repeat: no-repeat;
-}
 .div3{
     justify-content: center;
 }
@@ -71,11 +67,14 @@ main{
 .divmain{
     display: flex;
     justify-content:space-around;
+    background-image: url('Group 14 copy 2.png');
+    background-repeat: no-repeat;
 }
 .button3,.button4{
     height: 40px;
     width: 120px;
     border-radius: 20px;
+    border: none;
     color: rgb(249, 249, 249);
 }
 .button3{
@@ -87,4 +86,34 @@ main{
 }
 .div4 img{
     height: 260px;
+}
+.divmain2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div5 img{
+    height: 300px;
+}
+.prg1{
+    height:50px ;
+    width: 400px;
+}
+.prg2{
+    margin-left: 270px;
+}
+.prg3{
+    margin-left: 140px;
+}
+.cl2{
+    text-align: center;
+}
+.button5{
+    margin-left: 270px;
+    margin-top: 25px;
+    color: white;
+    background-color: rgb(255, 0, 179);
+    height: 30px;
+    border-radius: 20px;
+    border: none;
 }
