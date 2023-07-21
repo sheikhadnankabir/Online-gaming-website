@@ -1,0 +1,90 @@
+.nav{
+    height: 3cap;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.div1{
+    display: flex;
+    align-items: center;
+}
+.img3{
+    height: 15px;
+    width: 35px;
+}
+.section1{
+    padding-left: 8px;
+}
+.span1{
+    color: rgb(255, 0, 157);
+}
+.div2 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+li,a{
+    color: rgb(72, 72, 72);
+    text-decoration: none;
+    margin-right: 15px;
+}
+.button1{
+    padding-top: 7px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+}
+.img1,.img2{
+    height: 15px;
+    padding-right: 7px;
+}
+main{
+    background-image: url('Group 14 copy 2.png');
+    background-repeat: no-repeat;
+}
+.div3{
+    justify-content: center;
+}
+.cl1{
+    height: 10px;
+}
+.cl2{
+    height: 35px;
+    color: rgb(183, 60, 202);
+}
+.icon1,.icon2,.icon3{
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+.manicon1{
+    height: 15px;
+    width: 15px;
+    padding-right: 5px;
+}
+.button2{
+    margin-top: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+.divmain{
+    display: flex;
+    justify-content:space-around;
+}
+.button3,.button4{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    color: rgb(249, 249, 249);
+}
+.button3{
+    background-color: rgb(255, 63, 159);
+    margin-right: 20px;
+}
+.button4{
+    background-color: rgb(3, 182, 231);
+}
+.div4 img{
+    height: 260px;
+}
