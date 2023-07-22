@@ -42,12 +42,18 @@ li,a{
 .div3{
     justify-content: center;
 }
-.cl1{
-    height: 10px;
+/* .cl1{
+} */
+.cl1 h4{
+    height: 1px;
 }
-.cl2{
-    height: 35px;
-    color: rgb(183, 60, 202);
+.cl3{
+    padding-right: 100px;
+    width: 100px;
+    height: 70px;
+    color: rgb(221, 0, 255);
+    font-size: 40px;
+    justify-content: space-between;
 }
 .icon1,.icon2,.icon3{
     height: 25px;
@@ -85,7 +91,7 @@ li,a{
     background-color: rgb(3, 182, 231);
 }
 .div4 img{
-    height: 260px;
+    height: 360px;
 }
 .divmain2{
     display: flex;
@@ -107,6 +113,7 @@ li,a{
 }
 .cl2{
     text-align: center;
+    height: 15px;
 }
 .button5{
     margin-left: 270px;
@@ -116,4 +123,14 @@ li,a{
     height: 30px;
     border-radius: 20px;
     border: none;
+}
+.outdiv{
+    text-align: center;
+}
+.outdiv h3{
+    height: 30px;
+    font-size: 50px;
+}
+.cl4{
+    color: rgb(221, 0, 255);
 }
