@@ -1,8 +1,9 @@
 .nav{
-    height: 3cap;
+    height: 50px;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
+    gap: 350px;
 }
 .div1{
     display: flex;
@@ -51,7 +52,7 @@ li,a{
     padding-right: 100px;
     width: 100px;
     height: 70px;
-    color: rgb(221, 0, 255);
+    color: rgb(157, 0, 255);
     font-size: 40px;
     justify-content: space-between;
 }
@@ -72,31 +73,34 @@ li,a{
 }
 .divmain{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     background-image: url('Group 14 copy 2.png');
     background-repeat: no-repeat;
+    gap: 250px;
 }
 .button3,.button4{
     height: 40px;
     width: 120px;
     border-radius: 20px;
     border: none;
-    color: rgb(249, 249, 249);
+    color: rgb(255, 255, 255);
 }
 .button3{
-    background-color: rgb(255, 63, 159);
+    background-color: rgb(200, 0, 255);
     margin-right: 20px;
 }
 .button4{
-    background-color: rgb(3, 182, 231);
+    background-color: rgb(0, 151, 193);
 }
 .div4 img{
     height: 360px;
 }
 .divmain2{
+    background-color: rgb(255, 246, 246);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 .div5 img{
     height: 300px;
@@ -114,13 +118,15 @@ li,a{
 .cl2{
     text-align: center;
     height: 15px;
+    color: rgb(157, 0, 255);
 }
 .button5{
     margin-left: 270px;
     margin-top: 25px;
     color: white;
-    background-color: rgb(255, 0, 179);
+    background-color: rgb(157, 0, 255);
     height: 30px;
+    width: 120px;
     border-radius: 20px;
     border: none;
 }
@@ -129,8 +135,47 @@ li,a{
 }
 .outdiv h3{
     height: 30px;
-    font-size: 50px;
+    font-size: 40px;
 }
 .cl4{
     color: rgb(221, 0, 255);
+}
+.divmain3{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.divmain3 img:hover{
+    -webkit-filter: blur(2px);
+    image-rendering: auto;
+    border-radius: 20px;
+    border:  7px solid rgb(255, 217, 140);
+}
+.divmain3 p{
+    width: 220px;
+}
+.divmain4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2tipe{
+    display: flex;
+    justify-content: center;
+    margin:50px 100px 80px 0;
+}
+.small2{
+    height: 195px;
+    position: absolute;
+    margin:250px 0 0 400px;
+}
+.img3tipe p{
+    width: 250px;
+}
+.img3tipe section{
+    position:relative;
+    height:20px;
+}
+.img3tipe{
+    margin-left:100px ;
 }
