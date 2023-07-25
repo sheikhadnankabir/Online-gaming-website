@@ -1,3 +1,8 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
 .nav{
     height: 50px;
     display: flex;
@@ -76,7 +81,7 @@ li,a{
     justify-content:center;
     background-image: url('Group 14 copy 2.png');
     background-repeat: no-repeat;
-    gap: 250px;
+    gap: 350px;
 }
 .button3,.button4{
     height: 40px;
@@ -131,6 +136,7 @@ li,a{
     border: none;
 }
 .outdiv{
+    margin-top: 100px;
     text-align: center;
 }
 .outdiv h3{
@@ -144,6 +150,7 @@ li,a{
     display: flex;
     justify-content:center;
     align-items: center;
+    gap: 10px;
 }
 .divmain3 img:hover{
     -webkit-filter: blur(2px);
@@ -158,6 +165,7 @@ li,a{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 80px;
 }
 .img2tipe{
     display: flex;
@@ -178,4 +186,97 @@ li,a{
 }
 .img3tipe{
     margin-left:100px ;
+}
+.iconeimg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+.imgflax {
+    display: flex;
+    margin: 5px;
+    width: 190px;
+    padding: 7px 0 0 10px;
+}
+.imgflax h4{
+    font-size: 15px;
+}
+.imgflax:hover{
+    border-radius: 50px;
+    color: rgb(223, 0, 164);
+    border: 2px solid rgb(223, 0, 164);
+} 
+.iconeimg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+footer{
+    background-color: rgb(0, 1, 35);
+    height: 300px;
+}
+.foothead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spn2{
+    color: aliceblue;
+}
+.divfoot ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.divfoot li{
+  
+    width: 70px;
+}
+.divfoot a{
+    color:aliceblue;
+    font-size: 10px;
+    height: 200px;
+    width: 50px;
+}
+.iconfoot{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.imgfooter img{
+    height: 20px;
+}
+.texfooter ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+.texfooter a{
+    font-size: 10px;
+}
+.footpara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footpara p{
+    font-size: 10px;
+    color: rgb(83, 83, 83);
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
 }
